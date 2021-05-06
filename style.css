@@ -1,0 +1,487 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    width: 100%;
+    height:100px;
+    background-image: linear-gradient(to right,  rgb(138 21 128),  rgb(138 21 128));
+    border-bottom: white;
+}
+#logo{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: #fafafa;
+    
+    border-top:2px solid rgb(138 21 128) ;
+    border-left:2px solid rgb(138 21 128) ;
+    border-right:2px solid rgb(138 21 128) ;
+    
+}
+img{
+    width: 30%;
+    height: 100%;
+    float: right;
+    filter: contrast(130%);
+    
+   
+}
+#h1header{
+    float: left;
+    line-height: 100px;
+    padding: 5px;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(78, 11, 67);
+    -webkit-text-stroke-width:2px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    background-color: black;
+    text-align: center;
+}
+nav{ 
+    width: 70%;
+    text-align: center;
+    background:linear-gradient(45deg, black, transparent);
+    animation: changebackground 0.2s ;
+    animation-iteration-count: infinite;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 450px;
+    
+    
+    background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+    border-top:3px solid white ;
+    border-bottom:2px solid  rgb(22, 15, 19) ;
+    
+                    
+  }
+  @keyframes changebackground {
+    0%{
+      background-color: rgb(247, 34, 151);
+      background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+    }
+    25%{
+        background-color: rgb(247, 34, 151);
+        background:linear-gradient(45deg, black,rgb(153, 45, 117) );
+      }
+      50%{
+        background-color: rgb(247, 34, 151);
+        background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+      }
+    75%{
+        background-color: rgb(135, 28, 156);
+        background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+      }
+      100%{
+        background-color: rgb(180, 13, 73);
+        background:linear-gradient(135deg, black,rgb(153, 45, 117) );
+      }
+    }
+    @keyframes changebackgroundfooter {
+        0%{
+            background-color: rgb(247, 34, 151);
+            background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+          }
+          25%{
+              background-color: rgb(247, 34, 151);
+              background:linear-gradient(45deg, black,rgb(153, 45, 117) );
+            }
+            50%{
+              background-color: rgb(247, 34, 151);
+              background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+            }
+          75%{
+              background-color: rgb(135, 28, 156);
+              background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+            }
+            100%{
+              background-color: rgb(180, 13, 73);
+              background:linear-gradient(135deg, black,rgb(153, 45, 117) );
+            }
+        }
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+aside img{
+    width: 90%;
+    height: 50%;
+    
+}
+aside img:hover{
+    width: 100%;
+    height: 50%;
+    float: none;
+    
+    
+}
+#chemiselylescott{
+    text-align: center;
+    
+    float: none;
+    height: 230px;
+}
+#chemise{
+    padding: 20px;
+    border-bottom: rgb(153, 45, 117) solid;
+}
+
+#des:hover{
+    background-color:  rgb(153, 45, 117);
+    font-size: 60px;
+    background:linear-gradient(45deg, black,rgb(153, 45, 117) );
+    color: white;
+}
+#desc:hover{
+   
+    font-size: 30px;
+   
+}
+#cour{
+    
+    font-size: 40px;
+    width: 30%;
+    padding-top:1px ;
+    float: left;
+    text-align:left;
+    font-style: italic;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+
+}
+#articleid{
+    float: right;
+    width: 69%;
+    height: 450px;
+    
+    position: relative;
+    border-top: rgb(153, 45, 117) solid;
+   
+    
+    border-right: rgb(153, 45, 117) solid;
+    
+}
+#box{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(138 21 128);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    text-align: center;
+    border: 2px solid rgb(65, 1, 33);
+    padding: 5px;
+    animation: changebackground 0.2s ;
+    animation-iteration-count: infinite;
+}
+#box h1{
+    border:3px solid black;
+    font-style: italic;
+    padding: 10px;
+    color: white;
+}
+#box h1:hover{
+    border:3px solid black;
+    font-style: italic;
+    padding: 10px;
+    font-size: 40px;
+}
+#clientimage{
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    border: 2px solid rgb(41, 2, 31);
+    float: none;
+    
+}
+#box p{
+    font-style: italic;
+    color: white
+    
+}
+#facebook{
+    width: ;
+}
+#contact_box{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+#contact_box img{
+    width: 65px;
+    padding-left: 3px; <!-- pour ajouter un vide entre les icons -->
+    padding-right: ;
+    
+}
+#clientimage:hover{
+    width: 390px;
+}
+#contact_box img:hover{
+    width: 95px;
+    border-bottom: 2px solid red;
+}
+#span{
+    width: 100%;
+}
+<!-- il faut verifier le padding dans logo-->
+@media only screen and (min-width:1034px) and (max-width:1280px){
+    #logo{
+        width: 30%;
+    }
+    
+   
+    
+
+}
+@media only screen and (min-width:958px)and (max-width:1067px) {
+    #logo{
+        width: 40%;
+    }
+    #li{
+        width: 40px;
+    }
+    #cour{
+        width: 20%;
+        font-size: 25px;
+    }
+    footer #edenparkimage{
+        margin-right: 20px;
+        width: 25%;
+       
+    }
+    
+    
+   
+}
+@media only screen and (min-width:910px)and (max-width:957px) {
+    #logo{
+        width: 45%;
+    }
+    #li{
+        width: 25px;
+    }
+    #cour{
+        width: 20%;
+        font-size: 20px;
+    }
+    footer #ellesseimage{
+        
+        width: 25%;
+    }
+    footer #edenparkimage{
+        margin-right: 40px;
+        width: 25%;
+    }
+    footer #armaniimage{
+       
+        width: 25%;
+    }
+    
+    
+    
+}
+@media only screen and (min-width:800px)and (max-width:909px) {
+    #logo{
+        width: 45%;
+    }
+    #li{
+        width: 5px;
+    }
+    #cour{
+        width: 10%;
+        font-size: 20px;
+    }
+    footer #ellesseimage{
+        
+        width: 25%;
+    }
+    footer #edenparkimage{
+        margin-right: 40px;
+        width: 25%;
+    }
+    footer #armaniimage{
+       
+        width: 25%;
+    }
+}
+@media only screen and (max-width:800px) {
+    
+    #cour{
+        font-size: 20px;
+        width: 100%;
+    }
+    #logo{
+        width: 100%;
+        height: auto;
+    }
+    *{
+        text-align: center;
+    }
+    #h1header {
+        float: none;
+    }
+    aside {
+        width: 100%;
+        height: auto;
+        
+    }
+    #articleid {
+        width: 100%;
+       
+    }
+    nav {
+        width: 100%;
+        
+        float: left;
+    }
+    img{
+        float: none;
+    }
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* pour enlever le tri en dessous de l'ecriture */
+}
+
+
+nav li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* espace bien structure entre les elm de la marque*/
+    text-decoration: none;  /* pour enlever le tri en dessous de l'ecriture */
+    display: inline-block;
+    line-height: 2;
+}
+#dropnike{
+    background-color: rgb(20, 5, 5); /* la couleur de l'interface des elm dans la marque */
+    position: absolute;  /* pour preserver la position initial des elm  */
+    z-index: 1;  /* pour que les elm de marque soit afficher en dessus de l'interface */
+    display: none; /* pour que les elm soit afficher seulement si en met la souris sur ce quon veut  */
+}
+#droplacoste{
+    background-color: rgb(32, 8, 8);
+   
+    position: absolute;  
+   
+    z-index: 1;    
+    display: none;
+    
+}
+#dropadidas{
+    background-color: rgb(32, 8, 8);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+#dropnike a {
+    color: rgb(226, 19, 19); 
+    display: block; /* pour que les elm sont block par block et non dans la mm ligne*/
+}
+#dropadidas a {
+    color: rgb(192, 19, 19);
+    display: block;
+}
+#droplacoste a {
+    color: rgb(192, 19, 19);
+    display: block;
+}
+#nike:hover #dropnike{
+    display: block; /* pour quil marche quand on met la souris sur li quon veut afficher*/
+    width: 100px;
+}
+#lacoste:hover #droplacoste{
+    display: block; 
+    width: 100px;
+}
+#adidas:hover #dropadidas{
+    display: block; /* pour quil marche quand on met la souris sur li quon veut afficher*/
+width: 100px;
+}
+nav li a:hover{
+    
+    color:  red; /* le text devient en rouge quand on met lasouris*/
+    width: 68px; /* la taille de l'interface de text colore quand on met la souris*/
+}
+#ellesseimage{
+    width: 28%;
+    height: 200px;
+    float: left;
+    background-color: black;
+    
+    border-top:2px solid white ;
+    border-left:2px solid white ;
+    border-right:2px solid white ;
+    padding: 20px 20px;
+    border-radius: 20px 10px 20px 10px;
+    animation: changebackgroundfooter 0.2s ;
+    animation-iteration-count: infinite;
+}
+#footer1{
+    background-color: white;
+    background:linear-gradient(135deg, rgb(243, 237, 237),white );
+}
+#armaniimage{
+    width: 28%;
+    height: 200px;
+    float: right;
+    background-color:black;
+    
+    border-top:2px solid white ;
+    border-left:2px solid white ;
+    border-right:2px solid white ;
+    padding: 20px 20px;
+    border-radius: 20px 10px 20px 10px;
+    animation: changebackgroundfooter 0.2s ;
+    animation-iteration-count: infinite;
+}
+#edenparkimage{
+    width: 30%;
+    height: 200px;
+    
+    background-color: black;
+    
+    
+    border-top:2px solid white ;
+    border-left:2px solid white ;
+    border-right:2px solid white ;
+    border-radius: 20px 10px 20px 10px;
+
+    padding: 20px 20px;
+    
+    text-align: center;
+    
+    margin-right: 15px;
+    animation: changebackgroundfooter 0.2s ;
+    animation-iteration-count: infinite;
+    
+    
+}
+#marque{
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+}
